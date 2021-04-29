@@ -105,6 +105,7 @@ h5 {
 .span2 {
     color: hsl(0, 100%, 74%);
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .box2 {
