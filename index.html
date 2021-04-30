@@ -9,6 +9,7 @@
     <!-- font-->
     <link rel="stylesheet" type="text/css" href="css/nunito-font.css">
     <!-- main Style Css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
 </head>
@@ -29,34 +30,40 @@
                                 <input class="input" type="text" id="myName" placeholder="Nom complete"><br>
                             </div>
 
-                            <div class="form-control">
-                                <input class="input" type="email" id="myEmail" placeholder="Adresse e-mail"><br>
-                            </div>
-
-                            <div class="form-control">
-                                <input class="input" type="password" id="myPsw" placeholder="Mot de passe"><i class="fas fa-eye"></i>
-                                <small>error message</small>
-                            </div>
-
-                            <div class="form-control">
-                                <input class="input" type="password" id="myConfirmPsw" placeholder="Comfrmer le mot de passe "><i class="fas fa-eye"></i>
-                            </div>
-
-                            <h6>
-                                <span><i class="far fa-square"></i></span> J'ai accepté les <span class="span2">condtions générales</span>
-                            </h6>
-                            <button class="btn2" type="submit">
-								s'inscrire
-							</button>
+                            <!-- <div class="form-control">
+                                <!-- <input class="input" type="email" id="myEmail"><br> -->
+                            <input type="email" id="myEmail" class="form-control" placeholder="Adresse e-mail" /><br>
+                            <label class="form-label" for="myEmail">Email </label>
+                        </div> -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form1Example1" class="form-control" />
+                            <label class="form-label" for="form1Example1">Email address</label>
                         </div>
 
+                        <div class="form-control">
+                            <input class="input" type="password" id="myPsw" placeholder="Mot de passe"><i class="fas fa-eye"></i>
+                            <small>error message</small>
+                        </div>
+
+                        <div class="form-control">
+                            <input class="input" type="password" id="myConfirmPsw" placeholder="Comfrmer le mot de passe "><i class="fas fa-eye"></i>
+                        </div>
+
+                        <h6>
+                            <span><i class="far fa-square"></i></span> J'ai accepté les <span class="span2">condtions générales</span>
+                        </h6>
+                        <button class="btn2" type="submit">
+								s'inscrire
+							</button>
                     </div>
+
                 </div>
-            </form>
-            <div class="form-left">
-                <img src="images/form-v6.jpg" alt="form">
-            </div>
         </div>
+        </form>
+        <div class="form-left">
+            <img src="images/form-v6.jpg" alt="form">
+        </div>
+    </div>
     </div>
     <script src="./js/app.js"></script>
 </body>
